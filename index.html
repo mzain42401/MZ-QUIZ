@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div id="images">
+
+        <img src="quiz.png" width="350px">
+
+    </div>
+    <br>
+    <div id="display">
+        <h1>QUIZ APP !</h1>
+        <h2>MZ DEVELOPER.</h2>
+
+        <div class="question" id="q1"><span>Q.1:</span> Which Australian bowler took 195 wickets in 36 matches against
+            England _____ ?</div>
+
+        <br>
+        <div class="options" id="optionq1">
+            <label class="z" for="q1-a1"><input id="q1-a1" name="input1" type="radio">B.Lee</label>
+            <label class="z" for="q1-a2"><input id="q1-a2" name="input1" type="radio">D.Lillee</label>
+            <label class="z" for="q1-a3"><input id="q1-a3" name="input1" type="radio">S.Warne</label>
+            <label class="z" for="q1-a4"><input id="q1-a4" name="input1" type="radio">G.McGrath</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q2"><span>Q.2:</span> Who was the only Pakistani who remained not out during Anil
+            Kumble's 10 wicket haul in
+            1999_____ ?</div>
+        <br>
+
+
+        <div class="options" id="optionq2">
+            <label class="z" for="q2-a1"><input id="q2-a1" name="input2" type="radio">W.Akram</label>
+            <label class="z" for="q2-a2"><input id="q2-a2" name="input2" type="radio">W.Younis</label>
+            <label class="z" for="q2-a3"><input id="q2-a3" name="input2" type="radio">S.Afridi</label>
+            <label class="z" for="q2-a4"><input id="q2-a4" name="input2" type="radio">S.Akhter</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q3"><span>Q.3:</span> Which Pakistani cricketer scored 1788 Test runs in 2006 _____ ?
+        </div>
+        <br>
+
+
+        <div class="options" id="optionq3">
+            <label class="z" for="q3-a1"><input id="q3-a1" name="input3" type="radio">M.Yousuf</label>
+            <label class="z" for="q3-a2"><input id="q3-a2" name="input3" type="radio">Inzamam</label>
+            <label class="z" for="q3-a3"><input id="q3-a3" name="input3" type="radio">R.Raja</label>
+            <label class="z" for="q3-a4"><input id="q3-a4" name="input3" type="radio">S.Anwar</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q4"><span>Q.4:</span> Who became the first batsman to score 100 sixes in Test cricket
+            _____ ?</div>
+        <br>
+
+
+        <div class="options" id="optionq4">
+            <label class="z" for="q4-a1"><input id="q4-a1" name="input4" type="radio">V.Sehwag</label>
+            <label class="z" for="q4-a2"><input id="q4-a2" name="input4" type="radio">A.Gilchrist</label>
+            <label class="z" for="q4-a3"><input id="q4-a3" name="input4" type="radio">B.Lara</label>
+            <label class="z" for="q4-a4"><input id="q4-a4" name="input4" type="radio">C.Gayle</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q5"><span>Q.5:</span> Who is the only batsman to have scored 300, 400 and 500 runs in
+            first class cricket _____?
+        </div>
+        <br>
+
+
+        <div class="options" id="optionq5">
+            <label class="z" for="q5-a1"><input id="q5-a1" name="input5" type="radio">R.Ponting</label>
+            <label class="z" for="q5-a2"><input id="q5-a2" name="input5" type="radio">D.Bradman</label>
+            <label class="z" for="q5-a3"><input id="q5-a3" name="input5" type="radio">S.Tendulkar</label>
+            <label class="z" for="q5-a4"><input id="q5-a4" name="input5" type="radio">B.Lara</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q6"><span>Q.6:</span> Who is the only Indian cricketer to be part of both the 300 run
+            partnerships in One Day
+            Internationals_____ ?</div>
+        <br>
+
+
+        <div class="options" id="optionq6">
+            <label class="z" for="q6-a1"><input id="q6-a1" name="input6" type="radio">R.Dravid</label>
+            <label class="z" for="q6-a2"><input id="q6-a2" name="input6" type="radio">S.Tendulkar</label>
+            <label class="z" for="q6-a3"><input id="q6-a3" name="input6" type="radio">S.Ganguly</label>
+            <label class="z" for="q6-a4"><input id="q6-a4" name="input6" type="radio">V.Sehwag</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q7"><span>Q.7:</span> Who is the 4th cricketer to score 10,000 runs in the ODI
+            International cricket_____ ?</div>
+        <br>
+
+
+        <div class="options" id="optionq7">
+            <label class="z" for="q7-a1"><input id="q7-a1" name="input7" type="radio">H.Amla</label>
+            <label class="z" for="q7-a2"><input id="q7-a2" name="input7" type="radio">S.Jayasuriya</label>
+            <label class="z" for="q7-a3"><input id="q7-a3" name="input7" type="radio">J.Miandad</label>
+            <label class="z" for="q7-a4"><input id="q7-a4" name="input7" type="radio">S.Tendulkar</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q8"><span>Q.8:</span> Name the first person to dismissed by the third umpire _____ ?
+        </div>
+        <br>
+
+
+        <div class="options" id="optionq8">
+            <label class="z" for="q8-a1"><input id="q8-a1" name="input8" type="radio">S.Anwar</label>
+            <label class="z" for="q8-a2"><input id="q8-a2" name="input8" type="radio">D.Lillee</label>
+            <label class="z" for="q8-a3"><input id="q8-a3" name="input8" type="radio">S.Tendulkar</label>
+            <label class="z" for="q8-a4"><input id="q8-a4" name="input8" type="radio">B.Lee</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q9"><span>Q.9:</span> Who used first DRS in cricket_?</div>
+        <br>
+
+
+        <div class="options" id="optionq9">
+            <label class="z" for="q9-a1"><input id="q9-a1" name="input9" type="radio">Pakistan</label>
+            <label class="z" for="q9-a2"><input id="q9-a2" name="input9" type="radio">India</label>
+            <label class="z" for="q9-a3"><input id="q9-a3" name="input9" type="radio">Australia</label>
+            <label class="z" for="q9-a4"><input id="q9-a4" name="input9" type="radio">England</label>
+
+
+        </div>
+        <br>
+        <div class="question" id="q10"><span>Q.10:</span> When was the Ashes first played_?</div>
+        <br>
+
+
+        <div class="options" id="optionq10">
+            <label class="z" for="q10-a1"><input id="q10-a1" name="input10" type="radio">2015</label>
+            <label class="z" for="q10-a2"><input id="q10-a2" name="input10" type="radio">1995</label>
+            <label class="z" for="q10-a3"><input id="q10-a3" name="input10" type="radio">1982</label>
+            <label class="z" for="q10-a4"><input id="q10-a4" name="input10" type="radio">1994</label>
+
+
+        </div>
+        <br>
+    </div>
+
+    <!-- button================================ -->
+    <div class="d-grid gap-2">
+        <button onclick="start()" id="StartBtn" class="btn btn-info" type="button">START NOW</button>
+        <button onclick="next()" id="NextBtn" class="btn btn-" type="button">NEXT</button>
+        <button onclick="viewResult()" id="ScoreBtn" class="btn btn-warning" type="button">VIEW YOUR SCORE</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
